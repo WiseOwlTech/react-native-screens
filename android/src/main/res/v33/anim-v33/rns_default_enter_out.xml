@@ -11,11 +11,25 @@
         android:fillAfter="true"
         android:interpolator="@anim/rns_standard_accelerate_interpolator"
         android:startOffset="0"
-        android:duration="450" />
+        android:duration="150" />
 
     <translate
         android:fromXDelta="0"
         android:toXDelta="-100%"
         android:interpolator="@android:interpolator/fast_out_extra_slow_in"
+        android:startOffset="0"
+        android:duration="150" />
+
+    <extend
+        android:fromExtendLeft="0"
+        android:fromExtendTop="0"
+        android:fromExtendRight="10%"
+        android:fromExtendBottom="0"
+        android:toExtendLeft="0"
+        android:toExtendTop="0"
+        android:toExtendRight="10%"
+        android:toExtendBottom="0"
+        android:interpolator="@android:interpolator/fast_out_extra_slow_in"
+        android:startOffset="0"
         android:duration="150" />
 </set>
